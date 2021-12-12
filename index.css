@@ -1,0 +1,67 @@
+body {
+    background-color: #9A9A9A;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h4 {
+    text-align: center;
+    margin: 0px;
+}
+
+.header, .card {
+    background-color: #FFB319;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+
+.card {
+    background-color: #F9F3DF;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+.right-sticky {
+    position: sticky;
+    top: 60px;
+}
+.right2-sticky {
+    position: sticky;
+    top: 300px;
+}
+#sirji{
+    width: 50%;
+    height: 100px;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #28FFBF;
+}
